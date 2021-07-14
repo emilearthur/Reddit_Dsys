@@ -1,0 +1,174 @@
+id,title,score,url,author,subreddit,description
+odrudt,[D] Machine Learning - WAYR (What Are You Reading) - Week 116,20,https://www.reddit.com/r/MachineLearning/comments/odrudt/d_machine_learning_wayr_what_are_you_reading_week/,ML_WAYR_bot,r/MachineLearning,"This is a place to share machine learning research papers, journals, and articles that you're reading this week. If it relates to what you're researching, by all means elaborate and give us your insight, otherwise it could just be an interesting paper you've read.
+
+Please try to provide some insight from your understanding and please don't post things which are present in wiki.
+
+Preferably you should link the arxiv page (not the PDF, you can easily access the PDF from the summary page but not the other way around) or any other pertinent links.
+
+Previous weeks :
+
+|1-10|11-20|21-30|31-40|41-50|51-60|61-70|71-80|81-90|91-100|101-110|111-120|
+|----|-----|-----|-----|-----|-----|-----|-----|-----|------|-------|-------|
+|[Week 1](https://www.reddit.com/4qyjiq)|[Week 11](https://www.reddit.com/57xw56)|[Week 21](https://www.reddit.com/60ildf)|[Week 31](https://www.reddit.com/6s0k1u)|[Week 41](https://www.reddit.com/7tn2ax)|[Week 51](https://reddit.com/9s9el5)|[Week 61](https://reddit.com/bfsx4z)|[Week 71](https://reddit.com/d7vno3)|[Week 81](https://reddit.com/f1f0iq)|[Week 91](https://reddit.com/hlt38o)|[Week 101](https://reddit.com/k81ywb)|[Week 111](https://reddit.com/myg8sm)||||||||||
+|[Week 2](https://www.reddit.com/4s2xqm)|[Week 12](https://www.reddit.com/5acb1t)|[Week 22](https://www.reddit.com/64jwde)|[Week 32](https://www.reddit.com/72ab5y)|[Week 42](https://www.reddit.com/7wvjfk)|[Week 52](https://reddit.com/a4opot)|[Week 62](https://reddit.com/bl29ov)|[Week 72](https://reddit.com/de8h48)|[Week 82](https://reddit.com/f8fs6z)|[Week 92](https://reddit.com/hu6zq9)|[Week 102](https://reddit.com/kh27nx)|[Week 112](https://reddit.com/n8m6ds)||
+|[Week 3](https://www.reddit.com/4t7mqm)|[Week 13](https://www.reddit.com/5cwfb6)|[Week 23](https://www.reddit.com/674331)|[Week 33](https://www.reddit.com/75405d)|[Week 43](https://www.reddit.com/807ex4)|[Week 53](https://reddit.com/a8yaro)|[Week 63](https://reddit.com/bqlb3v)|[Week 73](https://reddit.com/dkox1s)|[Week 83](https://reddit.com/ffi41b)|[Week 93](https://reddit.com/iaz892)|[Week 103](https://reddit.com/kpsxtc)|[Week 113](https://reddit.com/njfsc6)||
+|[Week 4](https://www.reddit.com/4ub2kw)|[Week 14](https://www.reddit.com/5fc5mh)|[Week 24](https://www.reddit.com/68hhhb)|[Week 34](https://www.reddit.com/782js9)|[Week 44](https://reddit.com/8aluhs)|[Week 54](https://reddit.com/ad9ssz)|[Week 64](https://reddit.com/bw1jm7)|[Week 74](https://reddit.com/dr6nca)|[Week 84](https://reddit.com/fn62r1)|[Week 94](https://reddit.com/ijjcep)|[Week 104](https://reddit.com/kzevku)|[Week 114](https://reddit.com/ntu6lq)||
+|[Week 5](https://www.reddit.com/4xomf7)|[Week 15](https://www.reddit.com/5hy4ur)|[Week 25](https://www.reddit.com/69teiz)|[Week 35](https://www.reddit.com/7b0av0)|[Week 45](https://reddit.com/8tnnez)|[Week 55](https://reddit.com/ai29gi)|[Week 65](https://reddit.com/c7itkk)|[Week 75](https://reddit.com/dxshkg)|[Week 85](https://reddit.com/fvk7j6)|[Week 95](https://reddit.com/is5hj9)|[Week 105](https://reddit.com/l9lvgs)|[Week 115](https://reddit.com/o4dph1)||
+|[Week 6](https://www.reddit.com/4zcyvk)|[Week 16](https://www.reddit.com/5kd6vd)|[Week 26](https://www.reddit.com/6d7nb1)|[Week 36](https://www.reddit.com/7e3fx6)|[Week 46](https://reddit.com/8x48oj)|[Week 56](https://reddit.com/ap8ctk)|[Week 66](https://reddit.com/cd7gko)|[Week 76](https://reddit.com/e4nmyk)|[Week 86](https://reddit.com/g4eavg)|[Week 96](https://reddit.com/j0xr24)|[Week 106](https://reddit.com/ljx92n)||
+|[Week 7](https://www.reddit.com/52t6mo)|[Week 17](https://www.reddit.com/5ob7dx)|[Week 27](https://www.reddit.com/6gngwc)|[Week 37](https://www.reddit.com/7hcc2c)|[Week 47](https://reddit.com/910jmh)|[Week 57](https://reddit.com/auci7c)|[Week 67](https://reddit.com/cj0kyc)|[Week 77](https://reddit.com/eb4lxk)|[Week 87](https://reddit.com/gcx3uf)|[Week 97](https://reddit.com/j9cbfs)|[Week 107](https://reddit.com/luqbxl)||
+|[Week 8](https://www.reddit.com/53heol)|[Week 18](https://www.reddit.com/5r14yd)|[Week 28](https://www.reddit.com/6jgdva)|[Week 38](https://www.reddit.com/7kgcqr)|[Week 48](https://reddit.com/94up0g)|[Week 58](https://reddit.com/azjoht)|[Week 68](https://reddit.com/cp1jex)|[Week 78](https://reddit.com/ehbfst)|[Week 88](https://reddit.com/glm6sv)|[Week 98](https://reddit.com/jhzz9v)|[Week 108](https://reddit.com/m52u5z)||
+|[Week 9](https://www.reddit.com/54kvsu)|[Week 19](https://www.reddit.com/5tt9cz)|[Week 29](https://www.reddit.com/6m9l1v)|[Week 39](https://www.reddit.com/7nayri)|[Week 49](https://reddit.com/98n2rt)|[Week 59](https://reddit.com/b50r5y)|[Week 69](https://reddit.com/cvde5a)|[Week 79](https://reddit.com/entcxy)|[Week 89](https://reddit.com/gu5t0d)|[Week 99](https://reddit.com/jqjgo2)|[Week 109](https://reddit.com/mf8m6u)||
+|[Week 10](https://www.reddit.com/56s2oa)|[Week 20](https://www.reddit.com/5wh2wb)|[Week 30](https://www.reddit.com/6p3ha7)|[Week 40](https://www.reddit.com/7qel9p)|[Week 50](https://reddit.com/9cf158)|[Week 60](https://reddit.com/bakew0)|[Week 70](https://reddit.com/d1g1k9)|[Week 80](https://reddit.com/euctyw)|[Week 90](https://reddit.com/hddf7j)|[Week 100](https://reddit.com/jz3evt)|[Week 110](https://reddit.com/moy40m)||
+
+Most upvoted papers two weeks ago:
+
+/u/NEGU93: [here](https://www.reddit.com/r/MachineLearning/comments/o2q1h8/r_complexvalued_neural_networks/)
+
+Besides that, there are no rules, have fun."
+ojdmza,[D] Similarity of a high ranking journal publication with an earlier published arxiv paper?,151,https://www.reddit.com/r/MachineLearning/comments/ojdmza/d_similarity_of_a_high_ranking_journal/,CatCalm8947,r/MachineLearning,"I notice a very peculiar similarity between a paper from top journal of our field (IJCV) and an arXiv paper that has been published earlier that submission date of IJCV paper. So I assume the arXiv paper is suspicious and I am wondering should I contact the an authority who would take action or it does not worth trouble. such actions  disappoints me from academia.
+
+The main idea of IJCV is thoroughly explained earlier in the arXiv paper. No reference is given to arXiv paper. A section of arXiv paper is obviously copy-pasted (with modification is verbs and name). At least two figures are **directly** copied like the following.  Just compare section of "" 3.2. Supervision or Knowledge Transfer "" from original arxiv paper to section of "" 3.2 Cross-Architecture Knowledge Transfer "" from the suspected paper (IJCV). Bluntly paraphrasing verbs like ""Lets assume"" -> ""Suppose"", etc. can be observed many many times.
+
+IJCV paper  ( Tavakolian and Hadid)  :
+
+ [https://link.springer.com/article/10.1007/s11263-019-01191-3](https://link.springer.com/article/10.1007/s11263-019-01191-3)
+
+arXiv paper ( Diba et al.):
+
+ [https://arxiv.org/pdf/1711.08200.pdf](https://arxiv.org/pdf/1711.08200.pdf)
+
+The main figure are exactly the same, just compare the below:
+
+&#x200B;
+
+[same figures from both publications](https://preview.redd.it/5fqyyydxtya71.png?width=1494&format=png&auto=webp&s=fc365fbcc6bc1c5d586c016ee1a75f882b9e08e0)
+
+The original arXiv paper suggests a method to accelerate training of the 3D DNNs based on initialization of weights of a pre-trained 2D. The idea is simple and straightforward. Now, the IJCV paper took this idea and claims it as its own contribution for pain assessment application.
+
+&#x200B;
+
+What can be done in these situations, does it mean we should not upload on arxiv..."
+ojl611,[D] JAX in production,19,https://www.reddit.com/r/MachineLearning/comments/ojl611/d_jax_in_production/,_katta,r/MachineLearning,Have you ever used JAX in your production code? Was it pure JAX? What are the use-cases?
+ojt1jw,[R] Stanford’s AI Researchers Introduce QA-GNN Model That Jointly Reasons With Language Models And Knowledge Graphs,4,https://www.reddit.com/r/MachineLearning/comments/ojt1jw/r_stanfords_ai_researchers_introduce_qagnn_model/,techsucker,r/MachineLearning,"Question-answering systems are the backbone of our digital lives. From search engines to personal assistants, we use them every day and never even realize it! For example, when you ask a question like “Where was Leonardo da Vinci born?” these intelligent computer programs need to gather background knowledge about him (Leonardo’s birthplace is Italy) as well as computational reasoning over that information in order for an answer to be generated – which will often happen automatically without us even realizing what happened behind the scenes.
+
+In recent AI research, background knowledge is usually available in the form of Knowledge Graphs (KGs) and Language Models (LMs) which are pre-trained on a large set of documents. KG’s represent entities as nodes and relations between them as edges, e.g., \[Leonardo da Vinci — born in – Italy\]. Some other examples of KGs include [Freebase (general-purpose facts](https://www.semanticscholar.org/paper/Freebase%3A-a-collaboratively-created-graph-database-Bollacker-Evans/1976c9eeccc7115d18a04f1e7fb5145db6b96002)), [ConceptNet (commonsense)](https://arxiv.org/abs/1612.03975) and Examples of pre-trained LMs include [BERT (trained on Wikipedia articles and 10,000 books)](https://arxiv.org/abs/1810.04805), [RoBERTa (extending BERT), ](https://arxiv.org/abs/1907.11692)etc.
+
+Summary: [https://www.marktechpost.com/2021/07/13/stanfords-ai-researchers-introduce-qa-gnn-that-jointly-reasons-with-language-models-and-knowledge-graphs/](https://www.marktechpost.com/2021/07/13/stanfords-ai-researchers-introduce-qa-gnn-that-jointly-reasons-with-language-models-and-knowledge-graphs/)
+
+Github: [https://github.com/michiyasunaga/qagnn](https://github.com/michiyasunaga/qagnn)
+
+Paper: [https://arxiv.org/pdf/2104.06378.pdf](https://arxiv.org/pdf/2104.06378.pdf)"
+ojp76r,Self Taught Machine Learning Engineers: Tell us how did you land a job in ML [D],6,https://www.reddit.com/r/MachineLearning/comments/ojp76r/self_taught_machine_learning_engineers_tell_us/,Jolly-Web9421,r/MachineLearning,"Even better if you landed a job without even having a degree (only a high school one)  
+I'm starting my journey as a self-taught (without a degree) and I really need some inspiration and encouragement lol
+
+And if you like to give some advice, that would be great!"
+ojrndw,[D] Starting out in Scalable ML / Sys - ML / Distributed ML?,3,https://www.reddit.com/r/MachineLearning/comments/ojrndw/d_starting_out_in_scalable_ml_sys_ml_distributed/,A27_97,r/MachineLearning,"I'm currently a Software Engineer working on Distributed Systems. I have a background in ML, but unfortunately no ML work in my company. I would like to combine the both so I can apply to similar roles - I would like to get started on some research, but unsure of where to begin from. How reproducible are papers in this area? It looks to me that reproducing algorithms may be significantly higher than other papers due to lack of available resource."
+ojtyll,"[D] the evolutoon of ai ""bots"" in video games",3,https://www.reddit.com/r/MachineLearning/comments/ojtyll/d_the_evolutoon_of_ai_bots_in_video_games/,SQL_beginner,r/MachineLearning,"Does anyone know at what point in video games history did the developers start programming the ""bots"" with algorithms that resemble ai and machine learning?
+
+For example, a shot in the dark: it seems like the enemies in the early mario games had a more or less  fixed or random pattern, whereas higher level enemies in the gameboy pokemon games used some type of rule-based algorithm (e.g. if health < 20, use healing item). 
+
+But at what point in video game history did bots start to appear that were programmed using machine learning or ai algorithms? I don't play video hames at all, but I heard there are certain newer video games where the enemies actually ""learn"" your playing style and as a result, can put up a better fight 
+
+Does anyone know about this?
+
+Thanks"
+ojka3z,[D] Useful classes to take for ML/Research Engineers?,8,https://www.reddit.com/r/MachineLearning/comments/ojka3z/d_useful_classes_to_take_for_mlresearch_engineers/,piykat,r/MachineLearning,"I'll be starting my MS CS program this Fall, post which I'd like to work as an ML Engineer or Research Engineer at a top industrial lab. Had some questions on how I can customize my course to make me a more attractive candidate for these positions
+
+1. I'll be taking grad-level Algorithms, Machine Learning, and Deep Learning class. Apart from these, I have options among the following - Statistical Machine Learning, Distributed Systems, Computer Vision, Natural Language Processing, Data Mining. Assuming that I can only take 3 out of these 5 courses, which ones should I take?
+2. Would doing a research project or writing a thesis help me in securing Research Engineer positions?"
+oj1w02,"[P] Install or update CUDA, NVIDIA Drivers, Pytorch, Tensorflow, and CuDNN with a single command: Lambda Stack",251,https://www.reddit.com/r/MachineLearning/comments/oj1w02/p_install_or_update_cuda_nvidia_drivers_pytorch/,sabalaba,r/MachineLearning,"I'm sure most of you have spent a lot of time in command line hell trying to install or update CUDA, NVIDIA Drivers, Pytorch, Tensorflow, etc. We made Lambda Stack to simplify installation and updates. It's a debian PPA that manages all of the libraries and dependencies, resulting in a one-line install that ""just works"".
+
+This is a new video overview of Lambda Stack:
+https://www.youtube.com/watch?v=sEUOa0s-RQY
+
+This is our Lambda Stack how-to blog post:
+https://lambdalabs.com/blog/install-tensorflow-and-pytorch-on-rtx-30-series/
+
+And this is the one liner to install (requires Ubuntu 20.04 or 18.04):
+
+    LAMBDA_REPO=$(mktemp) && \
+    wget -O${LAMBDA_REPO} https://lambdalabs.com/static/misc/lambda-stack-repo.deb && \
+    sudo dpkg -i ${LAMBDA_REPO} && rm -f ${LAMBDA_REPO} && \
+    sudo apt-get update && sudo apt-get install -y lambda-stack-cuda
+
+To update your CUDA/framework/drivers just run this:
+
+    sudo apt-get update && sudo apt-get dist-upgrade
+
+Would love any feedback!"
+oj75ae,[D] What are Diffusion Models? by Lilian Weng,93,https://www.reddit.com/r/MachineLearning/comments/oj75ae/d_what_are_diffusion_models_by_lilian_weng/,regalalgorithm,r/MachineLearning,"I am sure many here have read Lilian Weng's excellent overview articles on various topics in ML, and she just released [a new one on Diffusion Models](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html) yesterday!
+
+tbh it was a bit dense for me, but as with her prior posts it is a great introduction to the topic for those inclined to learn more about it."
+oji7fs,[D] What pdf parser do you use for paragraph parsing for huggingface models,9,https://www.reddit.com/r/MachineLearning/comments/oji7fs/d_what_pdf_parser_do_you_use_for_paragraph/,gevezex,r/MachineLearning,"For  the models in Huggingface it is essential that you use neat parsed  paragraphs and/or sentences out of pdf documents as most of the time  documents are (still) in pdf format. What is your best practice with pdf  parsers. Are you using open source pdf parsers or payed api's like  amazons textract or google document ai and the such?
+
+Personally  I used a lot of open source versions like pdfminer, tika and xpdfreader  but all of these are ""meeh"" if you want to parse neat paragraphs and  sentences (pagenumbers / enumerated list / headers / footers are one of  the many nightmares).
+
+So I am very interested on how you solved this issue as machine learning experts."
+ojsouo,[P] AI Arena - Closed Beta,1,https://www.reddit.com/r/MachineLearning/comments/ojsouo/p_ai_arena_closed_beta/,brandinho77,r/MachineLearning,"Hi all,
+
+I don't know if anyone remembers, but I wrote an interactive article (and shared it here) on [Bayesian Q-Learning](https://www.reddit.com/r/MachineLearning/comments/jg475u/r_a_bayesian_perspective_on_qlearning/). Now I'm working on a more ambitious project - giving researchers the ability to monetize their IP by tokenizing their models on the blockchain. Our first step is implementing this via a fun battle game, which is similar to super smash bros - users can own, train, and battle with fighter NFTs powered by neural networks. At the moment the neural networks are automatically generated and can only be trained in our app, but overtime we plan on launching a python environment for researchers to train custom models and import them onto the blockchain to compete against all other models globally. If anyone is interested in learning more, check out our website: [https://aiarena.io/#/](https://aiarena.io/#/)
+
+To read our docs click on the ""learn more"" button on the main page. We are still building it out, and we would love some initial feedback from the machine learning community. To get details on our closed beta, and to learn about how we plan on incentivizing participants, please check out the following doc:
+
+[https://drive.google.com/file/d/1xDV70fbfGo3\_osnZeHSuXkkoykT1h2Hz/view?usp=sharing](https://drive.google.com/file/d/1xDV70fbfGo3_osnZeHSuXkkoykT1h2Hz/view?usp=sharing)
+
+Happy to answer any questions that anyone has!"
+ojhvkl,[P] StyleGAN2 for character portraits and style transfer,4,https://www.reddit.com/r/MachineLearning/comments/ojhvkl/p_stylegan2_for_character_portraits_and_style/,p00pl00ps,r/MachineLearning,"Hi all!
+
+I've been working on a fun little projects for a while. It's a simple webapp which serves a couple of styleGAN2 models I  trained on a dataset of hand-drawn portraits in the style of classic RPGs.
+
+&#x200B;
+
+https://preview.redd.it/96egpvrvyza71.png?width=256&format=png&auto=webp&s=4e52e42cb3710ddaeebd59cd9da735341a9d5a09
+
+&#x200B;
+
+* The first model simply generates a character portrait, and does so using conditional labels allowing you to pick gender and traditional fantasy races.
+* The second model takes real faces, aligns them and [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel/tree/master/models) invert to the stylegan latent space and thus perform style transfer. The image above is the output of putting in a picture of a certain famous ML figure...see if you can recognise them!
+
+Both models have their fair share of issues and need more work, but I thought the results were cool enough to share. You can play with th API  [here](https://rp-gen.com) if you're interested (excuse bugs / breakages due to server overloads...)
+
+&#x200B;
+
+Enjoy and le me know what you think!"
+ojj7cr,[R] ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation,6,https://arxiv.org/abs/2107.02137,kizumada,r/MachineLearning,
+ojfuqu,[R] Neural Waveshaping Synthesis,6,https://arxiv.org/abs/2107.05050,ratiugssab,r/MachineLearning,
+ojqdjl,"[D] Best no code SaaS / website for image annotation, training, and model creation?",1,https://www.reddit.com/r/MachineLearning/comments/ojqdjl/d_best_no_code_saas_website_for_image_annotation/,gecko39,r/MachineLearning,"I'm doing a small weekend project where I want to train a semantic segmentation network based on a pretrained imagenet model. I was curious to see if I could accomplish this via one of the many services I feel like exist out there. 
+I checked roboflow, but they do not appear to support semantic segmentation. 
+
+Criteria:
+
+* Annotate pixel labels for 100 or so images for 2-3 classes ( ideally with smart annotation / one click ) 
+* Train model ( hopefully with some automatic image augmentation or domain generalization) 
+* Download / Export model ( as tensorflow/pytorch/onnx )  along with boilerplate code to run inference on image 
+* Free or cheap enough to try it once for this project 
+
+I can do this myself by coding it, but figured i'd test something new.
+
+Thanks"
+oji890,[R] Mava: a research framework for distributed multi-agent reinforcement learning,3,https://www.reddit.com/r/MachineLearning/comments/oji890/r_mava_a_research_framework_for_distributed/,ktessera,r/MachineLearning,"[Paper](https://arxiv.org/abs/2107.01460) | [Repo](https://github.com/instadeepai/Mava)
+
+We recently launched Mava, a research framework for distributed multi-agent reinforcement learning. Mava integrates with DeepMind’s open-source RL ecosystem by building on top of [Acme](https://github.com/deepmind/acme), but extended to the multi-agent use case. We also use [reverb](https://github.com/deepmind/reverb) and [Launchpad](https://github.com/deepmind/launchpad) for data management and distribution. 
+
+Mava integrates with popular MARL envs like PettingZoo, SMAC, RoboCup, OpenSpiel, Flatland, and has implementations of popular MARL  algorithms. Hopefully, our framework can be of use to people working in the space and we would appreciate any feedback!"
+ojepja,[D] Which ML topics/tasks are under-served for practical uses?,4,https://www.reddit.com/r/MachineLearning/comments/ojepja/d_which_ml_topicstasks_are_underserved_for/,PhYsIcS-GUY227,r/MachineLearning,"Was thinking about this today at work and wanted to hear what Reddit has to say. Some ML tasks, like object detection, have great open source projects like YOLOv5 that are used and contributed to by the community, while others not so much. 
+
+Whether it’s that no project exists or that there is something but it’s de-facto unusable (because it’s not reproducible/not modifiable/hard to integrate with/ data, models or experiments not available/etc).
+
+Put another way, which ML task/s do you wish had a great open source project?"
+ojf2hk,[R] The DEformer: An Order-Agnostic Distribution Estimating Transformer,2,https://arxiv.org/abs/2106.06989,michaelaalcorn,r/MachineLearning,
+ojlqsz,[P] How creatively can you augment text data? Check NL-Augmenter🦎 → 🐍,0,https://www.reddit.com/r/MachineLearning/comments/ojlqsz/p_how_creatively_can_you_augment_text_data_check/,VeterinarianFar3937,r/MachineLearning,"Hi r/MachineLearning Members!
+
+We, a team of researchers spanning Google AI Language, UW, CMU and 7 other institutions organizing NL-Augmenter 🦎 → 🐍. , are now inviting transformation submissions to the same!
+
+All submitters of accepted transformations (and filters) will be included as co-authors on a paper announcing this framework. NL-Augmenter 🦎 → 🐍 is a part of the wider GEM benchmark, [GEM (Generation, Evaluation, Metrics)](https://gem-benchmark.com/nl_augmenter) workshop at ACL, 2021 and their future iterations.
+
+The NL-Augmenter is a collaborative effort intended to add transformations of datasets dealing with natural language. Transformations augment text datasets in diverse ways, including: introducing spelling errors, randomizing names, and numbers, paraphrasing ... and whatever creative augmentation you contribute to the benchmark. We invite submissions of transformations to this framework by way of GitHub pull request, through **July 25, 2021**. **All submitters of accepted transformations (and filters) will be included as co-authors on a paper announcing this framework.**
+
+Project: [https://github.com/GEM-benchmark/NL-Augmenter](https://github.com/GEM-benchmark/NL-Augmenter)
+
+We strongly believe that the benefits of open science should reach everyone and hence we are making this effort to reach you. We also encourage you to share this with other researchers in your department who would benefit from this open collaboration. To know more about the framework, check our [motivation and review criteria](https://github.com/GEM-benchmark/NL-Augmenter/blob/main/docs/doc.md) and some of [our recent work](https://arxiv.org/pdf/2106.09069.pdf).
+
+Organizers:
+
+Kaustubh Dhole (Amelia R&D) , Sebastian Gehrmann (Google AI Language), Varun Gangal (LTI, Carnegie Mellon University), Jascha Sohl-Dickstein (Google Brain), Tonghuang Wu (University of Washington), Simon Mille (Universitat Pompeu Fabra) , Zhenhao Li (Imperial College, London), Saad Mahmood (Trivago R&D), Aadesh Gupta (Amelia R&D), Samson Tan (Salesforce Research), Jinho Choi (Emory University)"
