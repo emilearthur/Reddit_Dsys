@@ -11,9 +11,6 @@ import asyncio
 logging.basicConfig(filename='redditscrapper.log', encoding='utf-8', level=logging.DEBUG)
 
 
-
-
-
 async def save_data(site: str, data_list = List[dict[str, str]], csv=True) -> None:
     """[summary]
 
@@ -28,10 +25,10 @@ async def save_data(site: str, data_list = List[dict[str, str]], csv=True) -> No
             outfile.write(json.dumps(data_list))
             outfile.close()
             logging.info(f"Data saved in Data folder as {outputfilename}.txt")
-    
-    data = pd.DataFrame(data_list, columns=['id', 'title', 'score', 'url', 'author', 'subreddit', 'description'])
-    data.to_csv(os.path.join('./Data', outputfilename+'.csv'), index=False)
-    logging.info(f"Data saved in Data folder as {outputfilename}.csv")
+    else:
+        data = pd.DataFrame(data_list, columns=['id', 'title', 'score', 'url', 'author', 'subreddit', 'description'])
+        data.to_csv(os.path.join('./Data', outputfilename+'.csv'), index=False)
+        logging.info(f"Data saved in Data folder as {outputfilename}.csv")
 
 
 async def reddit_scrap(subreddit: str, limit: int = 100, csv: bool = True) -> None:
@@ -69,5 +66,5 @@ async def reddit_scrap(subreddit: str, limit: int = 100, csv: bool = True) -> No
 
 
 logging.info("Start Data Reddit Data Scraping")
-asyncio.run(reddit_scrap(subreddit='MachineLearning', limit=500, csv=False))
+asyncio.run(reddit_scrap(subreddit='MachineLearning', limit=500, csv=True))
 logging.info("Finished scraping")
