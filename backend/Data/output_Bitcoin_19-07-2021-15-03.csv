@@ -1,0 +1,101 @@
+extracted_at,name,id,title,score,url,author,subreddit,description,created_at
+1626706992.569119,t3_on8baf,,"Mentor Monday, July 19, 2021: Ask all your bitcoin questions!",13,https://www.reddit.com/r/Bitcoin/comments/on8baf/mentor_monday_july_19_2021_ask_all_your_bitcoin/,rBitcoinMod,r/Bitcoin,"Ask (and answer!) away! Here are the general rules:
+
+* If you'd like to learn something, ask.
+* If you'd like to share knowledge, answer.
+* Any question about Bitcoin is fair game.
+
+And don't forget to check out /r/BitcoinBeginners
+
+You can sort by new to see the latest questions that may not be answered yet.",1626675486.0
+1626706992.578261,t3_on7dfa,,"Daily Discussion, July 19, 2021",45,https://www.reddit.com/r/Bitcoin/comments/on7dfa/daily_discussion_july_19_2021/,rBitcoinMod,r/Bitcoin,"Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
+
+If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
+
+[Join us in the r/Bitcoin Chatroom!](https://discord.gg/qE3rWBRNqh)
+
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/omk3bm/daily_discussion_july_18_2021/) for unanswered questions.",1626671303.0
+1626706992.578576,t3_onbdzc,,"For the first time in its history, the U.S. federal government is offering to pay for services with cryptocurrency",255,https://www.forbes.com/sites/martinrivers/2021/07/18/got-bitcoin-will-buy-intel-us-government-offers-cryptocurrency-bounty-in-radical-new-approach-to-fighting-cybercrime/,Eastern_Description2,r/Bitcoin,,1626690662.0
+1626706992.578813,t3_omwhrx,,"Curfew cocktail bar in Copenhagen, Denmark has received it’s first lightning payment!",3751,https://v.redd.it/dk3qiz63n0c71,curfewbar,r/Bitcoin,,1626633531.0
+1626706992.578998,t3_onceag,,The good old days: I’m Kevin and I'm the guy who bought 259684 BTC for $2613 yesterday,82,https://www.reddit.com/r/Bitcoin/comments/onceag/the_good_old_days_im_kevin_and_im_the_guy_who/,cascading_disruption,r/Bitcoin,""" I was watching, like many of you, a gigantic sell order burning through  the bids. Mt Gox doesn't execute trades very quickly, so we were  watching this huge order slowly eat up every buy order on the books. The  price started at around $17.50, and within minutes was below $10. At  this point, I realized this wasn't merely a large seller willing to  accept some losses. This was someone attempting to crash the market by  selling a huge percentage of the market's total bitcoins at once.
+
+I  had around $3000 USD in my Mt Gox account, from earlier sales I'd made.  I looked at the market stats, and realized that there were tons of  orders to buy BTC at $0.01 that would likely eat up any remaining  bitcoins this seller had on the order. I figured if I put a buy order in  for $0.0101, my order would execute first and I could buy a huge amount  of bitcoins from this seller before it hit the bottom. The only problem  was that Mt Gox was running slower than molasses at the time, and  everyone was saying that it wasn't accepting trades. I had to try  several times, but eventually I got a buy order in, offering to buy as  many bitcoins as I could for $0.0101.
+
+The site stopped responding  completely for a while, probably from so many people hitting refresh to  see what was going on. When I got back in, I saw in my account:
+
+06/19/11 17:51  Bought BTC  259684.77 for 0.0101
+
+I  had just purchased over 250,000 bitcoins for $2613. At the trading  price immediately before this large sell order happened, that number  would have been worth nearly $5 million. After I regained my breath, I  tried to figure out what to do. I wasn't sure what was really going on.  Over the past few days there had been a lot of talk and complaints about  Mt Gox's security. Lists of Mt Gox usernames, email addresses and  encrypted passwords were being traded around, which was an obvious sign  that security at Mt Gox had been breached in some way. If there was an  attacker in the system, perhaps he was able to log into my account now  and force my account to execute some other crazy trade. ""
+
+Source: [https://bitcointalk.org/index.php?topic=20207.0](https://bitcointalk.org/index.php?topic=20207.0)",1626695044.0
+1626706992.579188,t3_on9zg9,,"Erin Malone on Twitter - ""10 weeks ago, I joined the @lightning network barely knowing how to open a channel. Last week I became a profitable lightning network routing node. Here's a thread on the ultimate strategy game for LN node operators from one #Bitcoin pleb to another.""",117,https://twitter.com/ErinEMalone/status/1416901431181807617,soyc76,r/Bitcoin,,1626683768.0
+1626706992.579374,t3_on2ptp,,I think I get it after a few drinks,446,https://www.reddit.com/r/Bitcoin/comments/on2ptp/i_think_i_get_it_after_a_few_drinks/,AloneDay8829,r/Bitcoin,"1. Bitcoin is the first digital object that can't be duplicated or forged
+
+2. The way Bitcoin was created is almost as important as Bitcoin. Anonymous creator, no financial incentive, open-source for anyone to use, had $0 value for a year. It's like humans discovering gold for the first time
+
+3. Any Bitcoin fork is a waste of time. Imagine if the creator of the universe could create a knock off gold at any time and put it in the ground for us. For value, we seek items that have rare properties. meanwhile Satoshi created the scarcest asset known to mankind.
+
+4. Not even one of the largest countries could cripple Bitcoin. 
+
+5. There's **way** smarter people than me that already understand this and are doing everything they can to accumulate as much as possible via manupulation. And they know there is a small time window to do this.  It feels like just yesterday I bought the dip at $3,000. This thing is going into the millions.
+
+6. People that make fun of or disregard Bitcoin are completely wrong. There is no ""opinion"" on Bitcoin, it just exists as it was created to be.
+
+7. Imagine being trapped in a reality where Infinite money printing exists and there is no way out. Utterly terrifying. Something like Bitcoin was inevitable.
+
+
+P.S. I'm drunk",1626653373.0
+1626706992.579588,t3_ondret,,Historical BTC price dataset (going back to 2009-10-05),28,https://www.reddit.com/r/Bitcoin/comments/ondret/historical_btc_price_dataset_going_back_to/,Sylow99,r/Bitcoin,"Yesterday I asked on this sub whether someone knew where to find a full bitcoin historical price dataset. 
+
+[**PeerNameCom**](https://www.reddit.com/user/PeerNameCom/) made me aware of the webpage [Historical Bitcoin price](https://bitcoin.zorinaq.com/price/), where there is a chart of the bitcoin price going back to 2009-10-05, the first time an exchange rate was stablished by New Liberty Standard.
+
+So I have scraped the data of the chart and cleant it. The result is the [historical bitcoin price dataset](https://github.com/davidmunozlahoz/btc-historic-price) where you can find the daily price of bitcoin since 2009-10-05 until today.",1626700270.0
+1626706992.579796,t3_onahxi,,"PlanB on Twitter: Bounce, or break, that is the question",57,https://twitter.com/100trillionUSD/status/1417040781660114948?s=20,slacker-77,r/Bitcoin,,1626686370.0
+1626706992.579948,t3_oneg9h,,Turkey to introduce Cryptocurrency bill in October 2021,18,https://news.todayq.com/news/turkey-to-introduce-cryptocurrency-bill-in-october-2021/,andrytail,r/Bitcoin,,1626702664.0
+1626706992.580081,t3_ond0hh,,Bought dr**s with my dad yesterday,21,https://www.reddit.com/r/Bitcoin/comments/ond0hh/bought_drs_with_my_dad_yesterday/,smitty_werben_jagerm,r/Bitcoin,"It was an amazing day yesterday. I first told my dad (an older boomer) about crypto currencies in 2016. He thought they were full of shit, only used to buy dr\*gs on the internet, and for other illicit ventures. He wanted nothing to do with them.
+
+Fast forward to 2021 and my dad is taking pain relief meds that you can't get in the US. Not that I condone any of it - but they make him feel better and he's tried just about every other option and is tired of seeing new doctors every week.
+
+Yesterday, since his friend that he usually buys from is out of town, my dad managed to find what he was looking for online - but the only accepted payment was with BTC or LTC. So he calls me for help and within 5 minutes of sitting with him I've sent 12 LTC to a wallet, recieved a confirmation email on the purchase, and a shipping notification for when he can expect his order. (used LTC because no way was I giving up any of my BTC).
+
+The look on his face was priceless and I've now set him up with a wallet of his own as well as taught him how to use the feautes, what different coins do, and how to check his transactions on the blockchain.
+
+Things in my family have truly come full circle and i've been completely reassured that cryptocurrencies are here to stay.",1626697508.0
+1626706992.58021,t3_onbcny,,Crypto Experts Sees Bitcoin Replacing Fiat Money In 20 Years.,29,https://youtu.be/s2d8Nn_5oNc,oldgodemo1,r/Bitcoin,,1626690495.0
+1626706992.580327,t3_oneo40,,ARK Invest Buys Another $54M in Bitcoin-adjacent Square Stock,14,https://decrypt.co/76283/ark-invest-buys-another-54m-bitcoin-adjacent-square-stock?utm_source=reddit&utm_medium=social&utm_campaign=sm,TobiHovey,r/Bitcoin,,1626703384.0
+1626706992.580452,t3_on8fq8,,According To Tennessee City Mayor Bitcoin Is The Only Solution For US Increasing Inflation That is At Highest Level Since 2008,48,https://thecryptobasic.com/2021/07/19/bitcoin-news-according-to-tennessee-city-mayor-bitcoin-is-the-only-solution-for-us-increasing-inflation/,HabileJ_6,r/Bitcoin,,1626676059.0
+1626706992.580616,t3_onajra,,Bitcoin Offers More Freedom,22,https://www.reddit.com/r/Bitcoin/comments/onajra/bitcoin_offers_more_freedom/,Zalkifl_Savage,r/Bitcoin,"When you go down the Bitcoin rabbit hole you have to learn about:
+- Economics/Money
+- Game Theory
+- Politics/Law
+- Trading and Investing
+- Open-Source Software
+- Computer Science
+- Digital/Physical Security 
+Bitcoin is the greatest teacher to ever exist.",1626686624.0
+1626706992.580821,t3_onb9j9,,It only takes a minute to start using lightning!,15,https://www.reddit.com/r/Bitcoin/comments/onb9j9/it_only_takes_a_minute_to_start_using_lightning/,pouchph,r/Bitcoin,"I'm building a custodial lightning wallet - [https://test.pouch.ph/](https://test.pouch.ph/) \- this is the testnet version; the mainnet version isn't live yet. I have a vision of doing for the Philippines what Strike is doing for El Salvador. If anyone wants to help me test it out for bugs, I'd appreciate it a ton! You can play around making transactions between other testnet lightning apps like [https://htlc.me/](https://htlc.me/) or [https://starblocks.acinq.co/](https://starblocks.acinq.co/).
+
+I built it as a sort of layer-3 solution -- it makes transactions to/from lightning nodes over lightning, but internal payments are settled in the local custodial database, rather than having a node pay itself. I'm not sure if this is the ideal way; still figuring it out, but the future looks bright!",1626690092.0
+1626706992.580957,t3_omxq35,,"You hear about Lightning all the time, but did you ever use it? Just do it. It proves bitcoin is already able to be the world's payment network.",212,https://www.reddit.com/r/Bitcoin/comments/omxq35/you_hear_about_lightning_all_the_time_but_did_you/,rgnet1,r/Bitcoin,"It's easy to become skeptical of pronouncements about massive new developments that are caveated with ""and the real world applications will get there eventually.""  For example, the Lightning Network as secure off-chain settlement to solve Bitcoin's scaleability. Always sounded reasonable, but many, many years have passed since initial proposals and nothing ever seemed here or stable.
+
+Someone tipped me with lnbot the other day for a comment posted, and I thought as knowledgable as I've been about bitcoin for a long time, I have no idea how to claim something that is legitimately built on the bitcoin network.
+
+So I do a little investigating for a Lightning compatible wallet. Critical for me is:
+
+* open source
+* non-custodial
+
+Came across the usual lists of recommended wallets and dug deeper into Muun.  I am blown away.  Not only does it meet those two criteria, it's just simple, fast, and does exactly what I didn't think would be possible with LN - it makes it so you *don't have to think about it*.
+
+I click ""Receive"", I click ""Lightning"" and just like any bitcoin transaction, you get a QR code and I withdrew my sats from the lntipbot. That's cool and all but what's important is how can someone get their on-chain bitcoin onto Lightning, so it's ready for its actual use case of buying coffee and whatnot.  I have to set up a channel right? Or find someone to open a channel with? I have to manage how long the channel's open? Invoices? Eh? Bitcoin's simplicity vanishes... but no!
+
+Muun's whole philosophy is you get **one** balance. So I hit ""Receive"", then ""Bitcoin"", then I send like $10 worth to it. Now suddenly, my Muun wallet has a balance of the tip from before and the btc I just sent, no distinction. I don't know what's on chain, off chain, but **it doesn't matter**! 
+
+I then hit ""Send"", ""Lightning"" and deposit $5 into the Reddit lntipbot. It works! I definitely didn't have $5 of LN balance, but it sends instantly all the same.
+
+*This is how it's meant to be.* The security, distributed protection, and rigid scarcity of Bitcoin, but versatility to handle microtransactions globally. The only reason bitcoin is not every country's default currency is people's ignorance and the intentional or unintentional misinformation spewed by those with power to lose. 
+
+It's worked since 2008. It works even better now. The technology is here. You don't need complex custodial financial constructs like ETFs and derivatives to own it as an investment and you don't need 1,000s of other pointless cryptos to use it for small payments. Try Muun or some other Lightning wallet and start using it. This just feels game changing, and it shouldn't have taken me getting a Reddit tip to figure that out.",1626637268.0
+1626706992.581139,t3_omyph2,,Billionaire Investor Tim Draper Continues to Stick to $250k BTC Prediction,178,https://btcmanager.com/billionaire-investor-tim-draper-250k-btc-prediction/,Mars_chego,r/Bitcoin,,1626640280.0
+1626706992.581343,t3_on5lff,,"Over the past month, the number of Bitcoin users has hit an all time high. Even when Bitcoin is flat, it is still growing.",48,https://i.redd.it/1tasrt0y53c71.jpg,hamoti,r/Bitcoin,,1626664080.0
+1626706992.581535,t3_one37s,,What Are Mempools: Dark Forest of Blockchains?,7,https://getblock.io/blog/what-are-mempools-dark-forest-of-blockchains,getblockio,r/Bitcoin,,1626701427.0
