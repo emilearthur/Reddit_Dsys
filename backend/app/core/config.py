@@ -35,11 +35,16 @@ DATABASE_URL = config(
 # REDIS_PORT = config("REDIS_PORT", cast=str, default="6379")
 # REDIS_URL = config("REDIS_URL", cast=str, default=f"redis://{REDIS_HOST}")
 
-RABBITMQ_DEFAULT_USER = config("RABBITMQ_DEFAULT_USER", cast=str, default="rabbitmq")
-RABBITMQ_DEFAULT_PASS = config("RABBITMQ_DEFAULT_PASS", cast=Secret)
-RABBITMQ_DEFAULT_VHOST = config("RABBITMQ_DEFAULT_VHOST", cast=str, default="vhost")
-REDIS_REPLICATION_MODE = config("REDIS_REPLICATION_MODE", cast=str, default="master")
-
+RABBITMQ_DEFAULT_USER = config("RABBITMQ_USER", cast=str, default="rabbitmq")
+RABBITMQ_DEFAULT_PASS = config("RABBITMQ_PASSWORD", cast=Secret)
+RABBITMQ_USER = config("RABBITMQ_USER", cast=str, default="rabbitmq")
+RABBITMQ_PASSWORD = config("RABBITMQ_PASSWORD", cast=Secret)
+RABBITMQ_NODENAME = config("RABBITMQ_NODENAME", cast=str, default="rabbitnode@localhost")
+RABBITMQ_PORT1 = config("RABBITMQ_PORT1", cast=str, default="5672")
+RABBITMQ_PORT2 = config("RABBITMQ_PORT2", cast=str, default="15672")
+RABBITMQ_HOST = config("RABBITMQ_DEFAULT_VHOST", cast=str, default="vhost")
+RABBITMQ_URL = config("RABBITMQ_URL", cast=str,
+                      default=f"amqp://{RABBITMQ_DEFAULT_USER}:{RABBITMQ_DEFAULT_PASS}@{RABBITMQ_HOST}:{RABBITMQ_PORT2}")
 # EMAIL_ADDR = config("EMAIL", cast=str)
 # EMAIL_PWD = config("EMAIL_PWD", cast=str)
 # EMAIL_USERNAME = config("EMAIL_USERNAME", cast=str, default="EMILEX TRIG")

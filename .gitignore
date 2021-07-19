@@ -132,3 +132,7 @@ dmypy.json
 
 # exclude notebooks
 *.ipynb
+*.dat
+*.dir
+*.bak
+*celerybeat

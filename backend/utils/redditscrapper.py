@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Dict
 import praw
 import asyncpraw
 import pandas as pd
@@ -7,16 +7,19 @@ import json
 import logging
 import os
 import asyncio
+import httpx
+
+from utils import models
 
 
-logging.basicConfig(handlers=[logging.FileHandler(filename="redditscrapper.log", 
+logging.basicConfig(handlers=[logging.FileHandler(filename="logs/redditscrapper.log", 
                                                  encoding='utf-8', mode='a+')],
                     format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s', 
                     datefmt="%F %A %T", 
                     level=logging.DEBUG)
 
 
-async def save_data(site: str, data_list = List[dict[str, str]], csv=True) -> None:
+def save_data(site: str, data_list = List[Dict[str, str]], csv=True) -> None:
     """[summary]
 
     Args:
@@ -37,8 +40,7 @@ async def save_data(site: str, data_list = List[dict[str, str]], csv=True) -> No
         logging.info(f"Data saved in Data folder as {outputfilename}.csv")
 
 
-
-async def reddit_scrap(subreddit: str, limit: int = 100, csv: bool = True) -> None:
+def reddit_scrap(subreddit: str, limit: int = 10, csv: bool = True) -> None:
     """Extracts subbreddit. Not using asyncpraw library.
 
     Args:
@@ -55,21 +57,24 @@ async def reddit_scrap(subreddit: str, limit: int = 100, csv: bool = True) -> No
         posts = reddit.subreddit(subreddit).hot(limit=limit)
         for post in posts:
             data_dict = {
-                'extracted_at': str(datetime.utcnow()),
+                'extracted_at': datetime.utcnow().timestamp(),
                 'name': post.name,
-                'id': post.id,
+                'post_id': post.id,
                 'title': post.title,
                 'score': post.score,
                 'url': post.url,
                 'author': str(post.author), 
                 'subreddit': post.subreddit_name_prefixed,
                 'description': post.selftext,
-                'created_at': str(datetime.utcfromtimestamp(post.created_utc)),
+                'created_at': post.created_utc,
             }
+            data_subreddit = models.Subreddit(**data_dict)
+            # post_subreddit(json.dumps(data_subreddit.dict()))
+            worker.insert_intodb.delay(data_subreddit)
+            
+            data.append(data_subreddit.dict())
 
-            data.append(data_dict)
-
-        return await save_data(site="Reddit", data_list=data, csv=csv)
+        return save_data(site=f"{subreddit}-Reddit", data_list=data, csv=csv)
     except Exception as e:
         logging.exception("Reddit Data extraction failed")
         # print("Reddit Data extraction failed. See Exception")
@@ -108,11 +113,22 @@ async def reddit_scrap_async(subreddit: str = "MachineLearning", limit: int = 10
 
             data.append(data_dict)
 
-        return await save_data(site="Reddit", data_list=data, csv=csv)
+        return save_data(site=f"{subreddit}-Reddit", data_list=data, csv=csv)
     except Exception as e:
         logging.exception("Reddit Data extraction failed")
 
 
+
+def post_subreddit(data: dict, url=f"http://localhost:8000/api/subreddit/"):
+    """Disabled due to partially initialized module error"""
+    try:
+        resp = httpx.post(url, data=json.dumps(data))
+        logging.INFO(f"{resp.json()['post_id']} with status{resp.status_code}")
+
+    except Exception:
+        logging.exception("Reddit Data extraction failed")
+
+
 logging.info("Start Data Reddit Data Scraping")
-asyncio.run(reddit_scrap(subreddit='MachineLearning', limit=500, csv=True))
+reddit_scrap(subreddit='MachineLearning', limit=10, csv=True)
 logging.info("Finished scraping")

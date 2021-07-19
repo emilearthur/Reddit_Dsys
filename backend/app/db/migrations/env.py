@@ -30,7 +30,7 @@ def run_migrations_online() -> None:
     # handle testing config for migrations
     if os.environ.get("TESTING"):
         # connect to primary db
-        default_engine = create_engine(str(DATABASE_URL), isolation_level="AUTOCOMMIT")
+        default_engine = create_engine(str(DATABASE_URL), isolation_level="AUTOCOMMIT", connect_args={"options": "-c timezone=utc"})
         # drop testing db if it exists and create a fresh one
         with default_engine.connect() as default_conn:
             default_conn.execute(f"DROP DATABASE IF EXISTS {POSTGRES_DB}_test")
