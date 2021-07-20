@@ -131,8 +131,9 @@ dmypy.json
 .pyre/
 
 # exclude notebooks
-*.ipynb
 *.dat
 *.dir
 *.bak
 *celerybeat
+.vscode/
+redis-data/
