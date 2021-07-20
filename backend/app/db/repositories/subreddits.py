@@ -57,8 +57,8 @@ class SubredditRepository(BaseRepository):
         params = SubredditIntoDB(**new_subreddit.dict(exclude={"extracted_at", "created_at"}))
         datetime_fixed  = datetimefixer(extracted_at=new_subreddit.extracted_at, created_at=new_subreddit.created_at)
         updated_params = params.copy(update=datetime_fixed.dict())
-        subreddit = await self.db.fetch_one(query=CREATE_SUBREDDIT_QUERY, values=updated_params.dict())
-        return SubredditInDB(**subreddit)
+        await self.db.fetch_one(query=CREATE_SUBREDDIT_QUERY, values=updated_params.dict())
+        return "Data Inserted"
 
     async def get_all_subreddits(self) -> List[SubredditInDB]:
         """Get all subreddits"""

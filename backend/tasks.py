@@ -12,6 +12,8 @@ import os
 import json
 from celery import Celery
 from fastapi import Depends
+import requests as req
+import json
 
 
 
@@ -33,11 +35,15 @@ app = Celery('scrapper_worker')
 app.conf.broker_url = "redis://redis:6379/0"
 app.conf.result_backend = "redis://redis:6379/0"
 app.conf.timezone = 'UTC'
+# new addition 
+# app.conf.task_serializer = 'pickle'
+# app.conf.result_serializer = 'pickle'
+
 
 app.conf.beat_schedule = {
     'scraping-task-reddit-ten-min': {
         'task': 'tasks.scrape_data_reddit_ml',
-        'schedule': crontab(minute='*/30'),
+        'schedule': crontab(minute='*/20'),
     },
 
     'scraping-task-fifteen-min': {
@@ -73,28 +79,6 @@ async def save_data(site: str, data_list = List[dict[str, str]], csv=True) -> No
         logging.info(f"Data saved in Data folder as {outputfilename}.csv")
 
 
-class SqlALchemyTask(Task):
-    """Refered to http://www.prschmid.com/2013/04/using-sqlalchemy-with-celery-tasks.html"""
-    abstract = False
-    def after_return(self, status, retval, task_id, args, kwargs, einfo):
-        #db.remove()
-        pass
-
-#@app.task(base=SqlALchemyTask)
-# @app.task()
-async def insert_intodb(new_subreddit: SubredditCreate):
-    """Input scrapped subreddit into db."""
-    subreddit_repo: SubredditRepository = Depends(get_repository(SubredditRepository))
-    await subreddit_repo.create_subreddit(new_subreddit=new_subreddit)
-    # params = SubredditDB(**subreddit.dict(exclude={"extracted_at", "created_at"}))
-    # datetime_fixed  = datetimefixer(extracted_at=subreddit.extracted_at, created_at=subreddit.created_at)
-    # updated_params = params.copy(update=datetime_fixed.dict())
-    # CREATE_SUBREDDIT_QUERY = """
-    # INSERT INTO posts (extracted_at, name, post_id, title, score, url, author, subreddit, description, created_at, isscore)
-    # VALUES(:extracted_at, :name, :post_id, :title, :score, :url, :author, :subreddit, :description, :created_at, :isscore)
-    # """
-
-    # await db.execute(query=CREATE_SUBREDDIT_QUERY, values=updated_params.dict())
 
 def save_data(outputfilename: str, data_list = List[dict[str, str]], csv=True) -> None:
     """[summary]
@@ -146,7 +130,9 @@ def reddit_scrap(outputfile: str, subreddit:str, limit: int = 10, csv: bool = Tr
             }
             data_subreddit = SubredditCreate(**data_dict)
             # post_subreddit(json.dumps(data_subreddit.dict()))
-            insert_intodb(new_subreddit=data_subreddit)            
+            # insert_intodb(new_subreddit=data_subreddit)   
+            url = "http://server:8000/api/subreddit/"
+            req.post(url, data=json.dumps({"new_subreddit": data_subreddit.dict()}))         
             data.append(data_subreddit.dict())
         return save_data(outputfilename=outputfile, data_list=data, csv=csv)
     except Exception as e:
@@ -157,8 +143,7 @@ def reddit_scrap(outputfile: str, subreddit:str, limit: int = 10, csv: bool = Tr
 def scrape_data_reddit_ml(serializer='json'):
     subreddit, csv = 'MachineLearning', True
     outputfile = f"output_{subreddit}_{datetime.now().strftime('%d-%m-%Y-%H-%M')}"
-    reddit_scrap.delay(outputfile = outputfile, subreddit=subreddit, limit=20, csv=True)
-    #action_data_indb(data=outputfile, csv=csv)
+    reddit_scrap.delay(outputfile = outputfile, subreddit=subreddit, limit=50, csv=True)
     return "Process Sent"
 
 
@@ -166,9 +151,6 @@ def scrape_data_reddit_ml(serializer='json'):
 def scrape_data_reddit_bitcoin(serializer='json'):
     subreddit, csv = 'Bitcoin', True
     outputfile = f"output_{subreddit}_{datetime.now().strftime('%d-%m-%Y-%H-%M')}"
-    reddit_scrap.s(outputfile = outputfile, subreddit=subreddit, limit=20, csv=True).apply_async()
+    reddit_scrap.delay(outputfile = outputfile, subreddit=subreddit, limit=50, csv=True)
     return "Process Sent"
-
-
-def action_data_indb(data:str, csv=bool):
-    insert_intodb.apply_async(args=(data, csv))
+    

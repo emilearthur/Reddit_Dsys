@@ -69,16 +69,10 @@ def reddit_scrap(subreddit: str, limit: int = 10, csv: bool = True) -> None:
                 'created_at': post.created_utc,
             }
             data_subreddit = models.Subreddit(**data_dict)
-            # post_subreddit(json.dumps(data_subreddit.dict()))
-            worker.insert_intodb.delay(data_subreddit)
-            
             data.append(data_subreddit.dict())
-
         return save_data(site=f"{subreddit}-Reddit", data_list=data, csv=csv)
     except Exception as e:
         logging.exception("Reddit Data extraction failed")
-        # print("Reddit Data extraction failed. See Exception")
-        # print(e)
 
 
 async def reddit_scrap_async(subreddit: str = "MachineLearning", limit: int = 100, csv: bool = True) -> None:
